@@ -1,0 +1,47 @@
+.post {
+    position: relative;
+    background-color: #def2f1;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5.5rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+
+    &__title {
+        position: relative;
+        font-size: 3rem;
+        font-weight: bold;
+        /* margin-left: 3rem; */
+        min-height: 5rem;
+        margin: 1rem 0;
+        width: 100%;
+        border-bottom: 3px solid black;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__content {
+        position: relative;
+        width: 100%;
+        margin: 3.5rem;
+        font-size: 2.5rem;
+    }
+
+    &__date {
+        position: relative;
+        
+        width: 100%;
+        
+        font-size: 2rem;
+        color: darkslategray;
+        
+        
+
+    }
+
+
+}

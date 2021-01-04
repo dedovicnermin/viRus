@@ -1,0 +1,28 @@
+.errorPage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background-color: #3aafa9;
+
+    &__container {
+        position: relative;
+        height: 90%;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        &--msg {
+            width: 80%;
+            height: 50%;
+            font-size: 3rem;
+            background-color: #def2f1;
+            border: 3px solid black;
+            border-radius: 3rem;
+        }
+    }
+}

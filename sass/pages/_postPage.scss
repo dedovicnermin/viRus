@@ -1,0 +1,31 @@
+.postPage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background-color: #3aafa9;
+
+    
+
+    &__container {
+        width: 100%;
+        height: 80%;
+        overflow-y: scroll;
+
+    }
+
+    &__btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        bottom: 2rem;
+    }
+
+    &--ML {
+        margin-left: 2rem;
+    }
+}

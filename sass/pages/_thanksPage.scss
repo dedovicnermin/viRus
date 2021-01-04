@@ -1,0 +1,39 @@
+.thanksPage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background-color: #3aafa9;
+
+    &__seg {
+        background-color: #def2f1;
+        border: 3px solid black;
+        border-radius: 10rem;
+        font-size: 3.3rem;
+        position: relative;
+        top: 20%;
+
+        height: 50%;
+        width: 80%;
+        margin: 0 auto;
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+}
+
+#thanksMsg {
+    width: 55%;
+    margin-left: 2rem;
+}
+
+#thanksImg {
+    width: 40%;
+    border: 2px solid black;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}

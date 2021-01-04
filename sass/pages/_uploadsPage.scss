@@ -1,0 +1,56 @@
+.uploadPage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background-color: #3aafa9;
+
+
+    &__container {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        overflow-y: scroll;
+
+        display: inline-flex;
+        flex-direction: column;
+        
+        align-items: center;
+
+        &--row {
+            width: 90%;
+            font-size: 2rem;
+            height: fit-content;
+            text-align: center;
+            margin: 2rem 2rem;
+            padding: .5rem 0;
+            border: 3px solid black;
+            background-color: #def2f1;
+            border-radius: 1rem;
+        }
+    }
+
+    &__btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        bottom: 2rem;
+    }
+
+}
+
+.btncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.fileDescription {
+    margin: 1.5rem 0;
+}

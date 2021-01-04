@@ -1,0 +1,23 @@
+<div class="subsPage">
+    <div class="topbar"><h3>VI'R'US Subscribers</h3></div>
+    <div class="subsPage__container">
+        <table class="subsPage__container--table">
+            <caption>Our Subscribers</caption>
+            <thead>
+                <tr>
+                    <th scope="col">User Name</th>
+                    <th scope="col">User Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% subs.forEach(sub => { %>
+                    <tr>
+                        <td class="subName"><%= sub.name %></td>
+                        <td class="subEmail"><%= sub.email %></td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </div>
+
+</div>

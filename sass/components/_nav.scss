@@ -1,0 +1,34 @@
+.nav {
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: #2b7a78;
+    border-right: 6px solid black;
+
+    &__item {
+        font-family: Impact;
+        font-size: 3rem;
+        text-decoration: none;
+        color: #17252a;
+
+        &:hover {
+            
+            color: #3aafa9;
+        }
+
+        &:active {
+            
+            color: #def2f1;
+        }
+
+
+
+    }
+
+
+
+}

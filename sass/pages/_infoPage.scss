@@ -1,0 +1,54 @@
+.infoPage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    background-color: #3aafa9;
+
+    overflow-y: scroll;
+
+    &__seg {
+        position: relative;
+        background-color: #def2f1;
+        width: 80%;
+        // height: 35%;
+
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        margin-top: 5.5rem;
+        border: 3px solid black;
+        border-radius: 1rem;
+        
+
+        
+
+        &--title {
+            font-size: 3rem;
+            position: absolute;
+            top: -3.5rem;
+            font-weight: bold;
+            margin-left: 3rem;
+        }
+
+        &--text {
+            width: 60%;
+            margin: 2rem;
+            margin-left: 4rem;
+            font-size: 2.5rem;
+
+        }
+
+        &--img {
+            width: 22%;
+            margin-left: 10%;
+            height: 70%;
+        }
+
+    }
+
+
+
+}
+

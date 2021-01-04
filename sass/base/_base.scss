@@ -1,0 +1,42 @@
+html,
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+
+html {
+    //defining what 1 rem is:
+        //1 rem == 10px; 10px/16px = 62.5%
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+html, body {    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+body {
+    position: relative;
+    
+    font-family: sans-serif;
+    background-color: #3aafa9;
+}
+
+h3 {
+    font-size: 3.5rem;
+    color: #17252a;
+}
